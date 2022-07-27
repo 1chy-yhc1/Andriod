@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">LoginInterface</string>
+    <!--    <string name="totle_size_height">50dp</string>-->
+    <string name="totle_size_word">18sp</string>
+
+    <string name="rg_text_password">密码登录</string>
+    <string name="rg_text_valadition">验证码登录</string>
+
+    <string name="input_phonenumber">手机号码:</string>
+    <string name="input_passwordnumber">登录密码:</string>
+    <string name="input_hint_phone">请输入手机号码:</string>
+    <string name="input_hint_password">请输入密码:</string>
+
+
+    <string name="input_new_password">请输入新密码:</string>
+    <string name="input_new_passwordnumber">请输入密码:</string>
+    <string name="confirm_new_password">再次输入新密码:</string>
+    <string name="input_new_password_again">请再次输入密码</string>
+
+    <string name="verifycode2">请输入验证码:</string>
+
+    <string name="input_verifycode">请输入验证码:</string>
+    <string name="get_verifycode">获取验证码</string>
+
+    <string name="done">确认</string>
+
+    <string name="input_word_padding_srart">15dp</string>
+
+    <string name="cb_text_remeberpassword">记住密码</string>
+
+    <string name="button_text_login">登录</string>
+
+    <string name="intent_forgetpassword">忘记密码</string>
+
+
+</resources>

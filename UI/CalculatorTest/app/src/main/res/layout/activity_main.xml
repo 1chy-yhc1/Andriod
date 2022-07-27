@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#DCDCDC"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/caculator_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+
+            android:text="@string/calculator_title"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+
+            android:background="#B0C4DE"
+            />
+
+        <EditText
+            android:id="@+id/caculator_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lines="3"
+
+            android:hint="@string/caculator_exit_text"
+            android:gravity="right|bottom"
+
+            android:background="#ffffff"
+            />
+
+    </LinearLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="4"
+        android:rowCount="5"
+        android:layout_margin="5dp"
+        android:background="#ffffff">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/remove"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+
+            android:text="@string/caculator_remove"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+        />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/divison"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+
+            android:text="@string/calculator_division"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/multiply"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+
+            android:text="@string/calculator_multiplication"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/delete"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+
+            android:text="@string/caculator_delete"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/seven"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+
+            android:text="@string/calculator_seven"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/eight"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+
+            android:text="@string/calculator_eight"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/nine"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+
+            android:text="@string/calculator_nine"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/add"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+
+            android:text="@string/calculator_add"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/four"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+
+            android:text="@string/calculator_four"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/five"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+
+            android:text="@string/calculator_five"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/six"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+
+            android:text="@string/calculator_six"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/subtraction"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+
+            android:text="@string/calculator_subtraction"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/one"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+
+            android:text="@string/calculator_one"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/two"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+
+            android:text="@string/calculator_two"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/three"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+
+            android:text="@string/calculator_three"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/wan"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+
+            android:text="@string/calculator_"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/derivative"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+
+            android:text="@string/calculator_derivative"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/zero"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+
+            android:text="@string/calculator_zero"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/point"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+
+            android:text="@string/calculator_point"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/equal"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+
+            android:text="@string/calculator_equal"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            />
+    </GridLayout>
+
+
+</LinearLayout>

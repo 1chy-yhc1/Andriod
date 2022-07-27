@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--     android:orientation="vertical" 指定了排列方向为竖向  horizontal 横向-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<!--    <include layout = "@layout/title"/>-->
+
+    <!--    线性布局-->
+
+<!--    android:layout_gravity = ""  设置组件的位置-->
+<!--    android:layout_weight = "1" 以比例的形式组件的大小-->
+
+    <!--    <Button-->
+<!--        android:id="@+id/button_2"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center_vertical"-->
+<!--        android:layout_weight = "1"-->
+<!--        android:text="button 2"-->
+<!--        />-->
+<!--    <Button-->
+<!--        android:id="@+id/button_3"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="bottom"-->
+<!--        android:layout_weight = "1"-->
+<!--        android:text="button 3"-->
+<!--        />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/button_1"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="bottom"-->
+<!--        android:layout_weight="1"-->
+<!--        android:text="button 1" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/exit_text"-->
+
+<!--        android:hint="请输入内容："-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="bottom"-->
+<!--        android:layout_weight="9"-->
+<!--        />-->
+
+<!--    添加自定义布局的布局文件-->
+    <com.example.uilayouttesst.TitleLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>
